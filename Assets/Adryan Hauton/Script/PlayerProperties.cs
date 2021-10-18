@@ -12,7 +12,7 @@ public class PlayerProperties : MonoBehaviour
     public float JumpPower;
     public LevelScrolling LevelScrolling;
     public ParticleSystem Particles;
-    
+
     [SerializeField]private bool _isGrounded = false;
     private Rigidbody _rigidbody;
     private MeshRenderer _mesh;
@@ -39,7 +39,7 @@ public class PlayerProperties : MonoBehaviour
         {
             //Parade
         }
-        
+
     }
 
     private void OnCollisionEnter(Collision other)
@@ -81,7 +81,7 @@ public class PlayerProperties : MonoBehaviour
         Destroy(_mesh);
         LevelScrolling._scrollingSpeed = 0f;
         Particles.Play();
-        // particules de destruction + son de mort + coupure de la musique + ReloadScene
+        //coupure de la musique
         Invoke("ReloadScene", 1f);
     }
 
