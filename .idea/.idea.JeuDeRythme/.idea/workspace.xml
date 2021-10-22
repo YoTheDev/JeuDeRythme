@@ -10,6 +10,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Yohann Spriet/Finish.cs" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectId" id="1zXh0nlhXNLKvjK3eSivIvm78Rf" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -27,9 +34,8 @@
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
-      <option name="projectPathOnTarget" />
       <option name="selectedOptions">
-        <list />
+        <set />
       </option>
       <method v="2" />
     </configuration>
@@ -37,9 +43,8 @@
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
-      <option name="projectPathOnTarget" />
       <option name="selectedOptions">
-        <list />
+        <set />
       </option>
       <method v="2" />
     </configuration>
@@ -54,6 +59,7 @@
       <updated>1634300122214</updated>
       <workItem from="1634300128711" duration="5834000" />
       <workItem from="1634555643486" duration="7367000" />
+      <workItem from="1634913161056" duration="631000" />
     </task>
     <servers />
   </component>
