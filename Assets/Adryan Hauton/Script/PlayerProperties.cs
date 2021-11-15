@@ -16,16 +16,19 @@ public class PlayerProperties : MonoBehaviour
     [SerializeField]private bool _isGrounded = false;
     private Rigidbody _rigidbody;
     private MeshRenderer _mesh;
+    public bool isTime = false;
 
     void Start()
     {
         _mesh = GetComponent<MeshRenderer>();
         _rigidbody = GetComponent<Rigidbody>();
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
     }
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.UpArrow) && _isGrounded)
+        if (Input.GetKeyDown(KeyCode.UpArrow) && _isGrounded && isTime)
         {
             _rigidbody.AddForce(0, JumpPower, 0, ForceMode.Impulse);
         }
@@ -69,10 +72,23 @@ public class PlayerProperties : MonoBehaviour
         {
             transform.position = new Vector3(0f, 1.3f, 20f);
         }
+
+        if (other.gameObject.CompareTag("FrontOfOb"))
+        {
+            isTime = true;
+        }
         
         if (other.gameObject.CompareTag("Spikes"))
         {
             PlayerDeath();
+        }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.gameObject.CompareTag("FrontOfOb"))
+        {
+            isTime = false;
         }
     }
 
