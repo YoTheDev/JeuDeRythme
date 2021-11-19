@@ -18,9 +18,6 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Adryan Hauton/Script/UIManagement.cs" root0="FORCE_HIGHLIGHTING" />
-  </component>
   <component name="ProjectId" id="1zXh0nlhXNLKvjK3eSivIvm78Rf" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -69,6 +66,7 @@
       <workItem from="1636978342947" duration="586000" />
       <workItem from="1636979417670" duration="1595000" />
       <workItem from="1637310985664" duration="398000" />
+      <workItem from="1637313234979" duration="8458000" />
     </task>
     <servers />
   </component>
