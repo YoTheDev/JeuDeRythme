@@ -8,5 +8,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Adryan Hauton/Scenes/AdryanH.unity
     guid: 89a465f2b830efc4e9b951f568186f28
+  - enabled: 1
+    path: Assets/Scenes Principale/Level_one.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: fe1ff48d8e52688489bfd007234f2e9f, type: 2}

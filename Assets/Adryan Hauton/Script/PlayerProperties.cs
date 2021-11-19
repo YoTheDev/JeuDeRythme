@@ -11,8 +11,6 @@ public class PlayerProperties : MonoBehaviour
 
     public float JumpPower;
     public LevelScrolling LevelScrolling;
-    public LevelScrolling BackgroundScrolling;
-    public LevelScrolling SecondBackScrolling;
     public ParticleSystem Particles;
     public float TeleportDistance;
 
@@ -20,6 +18,7 @@ public class PlayerProperties : MonoBehaviour
     private Rigidbody _rigidbody;
     private MeshRenderer _mesh;
     public bool isTime = false;
+    public AudioSource Death;
 
     void Start()
     {
@@ -33,6 +32,7 @@ public class PlayerProperties : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.UpArrow) && _isGrounded && isTime)
         {
+            Debug.Log("hello");
             _rigidbody.AddForce(0, JumpPower, 0, ForceMode.Impulse);
         }
 
@@ -99,16 +99,16 @@ public class PlayerProperties : MonoBehaviour
     {
         Destroy(_mesh);
         LevelScrolling._scrollingSpeed = 0f;
-        BackgroundScrolling._scrollingSpeed = 0f;
-        SecondBackScrolling._scrollingSpeed = 0f;
         Particles.Play();
-        //coupure de la musique
-        Invoke("ReloadScene", 1f);
+        Audio_manager.MusicLVL1.Stop();
+        Death.Play();
+        _rigidbody.constraints = RigidbodyConstraints.FreezePosition;
+        Invoke("ReloadScene", 2.5f);
     }
 
     void ReloadScene()
     {
-        LoadScene("AdryanH");
+        LoadScene("SceneLvl1");
     }
 
 }
