@@ -6,13 +6,24 @@ public class LevelScrolling : MonoBehaviour
 {
     private Transform _lineTransform;
     public float _scrollingSpeed;
+    bool isCharged;
     void Start()
     {
+        isCharged = false;
+        Invoke("Scroller", 2f);
         _lineTransform = GetComponent<Transform>();
     }
     
-    void Update()
+    void FixedUpdate()
     {
-        _lineTransform.Translate(_scrollingSpeed, 0, 0);
+        if (isCharged)
+        {
+            _lineTransform.Translate(_scrollingSpeed, 0, 0); 
+        }
+    }
+
+    void Scroller()
+    {
+        isCharged = true;
     }
 }
