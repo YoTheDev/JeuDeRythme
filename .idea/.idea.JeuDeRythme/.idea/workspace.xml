@@ -10,12 +10,16 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/Assets/Yohann Spriet/Finish.cs" />
-      </list>
-    </option>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Adryan Hauton/Script/UIManagement.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1zXh0nlhXNLKvjK3eSivIvm78Rf" />
   <component name="ProjectViewState">
@@ -34,8 +38,9 @@
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
+      <option name="projectPathOnTarget" />
       <option name="selectedOptions">
-        <set />
+        <list />
       </option>
       <method v="2" />
     </configuration>
@@ -43,8 +48,9 @@
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
+      <option name="projectPathOnTarget" />
       <option name="selectedOptions">
-        <set />
+        <list />
       </option>
       <method v="2" />
     </configuration>
@@ -59,8 +65,10 @@
       <updated>1634300122214</updated>
       <workItem from="1634300128711" duration="5834000" />
       <workItem from="1634555643486" duration="7367000" />
-      <workItem from="1634913161056" duration="1227000" />
-      <workItem from="1635452097235" duration="616000" />
+      <workItem from="1634892246586" duration="6526000" />
+      <workItem from="1636978342947" duration="586000" />
+      <workItem from="1636979417670" duration="1595000" />
+      <workItem from="1637310985664" duration="398000" />
     </task>
     <servers />
   </component>
