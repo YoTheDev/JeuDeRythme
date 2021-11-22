@@ -14,37 +14,34 @@ public class MenuManager : MonoBehaviour
     public GameObject LvlSelect;
     public GameObject Menu;
     public GameObject Option;
-    private Vector3 CamOnSettings;
-    private Vector3 CamOnMenu;
-    public Camera cam;
     public GameObject Credits;
 
     public GameObject FirstSelectLvl;
     public GameObject FirstSelectCredits;
     public GameObject FirstSelectSettings;
     public GameObject FirstSelect;
+    public Animator CamAnim;
 
     public EventSystem myEventSystem;
 
     void Start()
     {
+        CamAnim.SetBool("AnimPos", false);
         Cursor.lockState = CursorLockMode.Locked;
-        CamOnMenu = new Vector3(-44, 0, 0);
-        CamOnSettings = new Vector3(44, 0, 0);
         LvlSelect.SetActive(false);
         Menu.SetActive(true);
         Option.SetActive(false);
         Credits.SetActive(false);
     }
 
-    private void Update()
+    public void QuitButton()
     {
-        
+        Application.Quit();
     }
 
     public void CreditsButton()
     {
-        cam.transform.Translate(CamOnSettings);
+        CamAnim.SetBool("AnimPos", true);
         LvlSelect.SetActive(false);
         Menu.SetActive(false);
         Option.SetActive(false);
@@ -54,7 +51,7 @@ public class MenuManager : MonoBehaviour
 
     public void Settings()
     {
-        cam.transform.Translate(CamOnSettings);
+        CamAnim.SetBool("AnimPos", true);
         LvlSelect.SetActive(false);
         Menu.SetActive(false);
         Option.SetActive(true);
@@ -78,7 +75,7 @@ public class MenuManager : MonoBehaviour
 
     public void LevelSelect()
     {
-        cam.transform.Translate(CamOnSettings);
+        CamAnim.SetBool("AnimPos", true);
         LvlSelect.SetActive(true);
         Menu.SetActive(false);
         myEventSystem .GetComponent<UnityEngine.EventSystems.EventSystem>().SetSelectedGameObject(FirstSelectLvl);
@@ -86,11 +83,11 @@ public class MenuManager : MonoBehaviour
 
     public void Back()
     {
+        CamAnim.SetBool("AnimPos", false);
         Credits.SetActive(false);
         LvlSelect.SetActive(false);
         Menu.SetActive(true); 
         Option.SetActive(false);
-        cam.transform.Translate(CamOnMenu);
         myEventSystem .GetComponent<UnityEngine.EventSystems.EventSystem>().SetSelectedGameObject(FirstSelect);
     }
 
