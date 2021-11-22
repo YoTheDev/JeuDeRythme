@@ -10,6 +10,6 @@ public class MenuSoundManager : MonoBehaviour
 
     public void SetMusicVol(float sliderValue)
     {
-        Music.SetFloat("MusicVol", Mathf.Log10(sliderValue) * 20); 
+        Music.SetFloat("MusicVol", Mathf.Log10(sliderValue) * 20);
     }
 }
