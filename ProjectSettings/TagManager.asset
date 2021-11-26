@@ -8,6 +8,8 @@ TagManager:
   - Spikes
   - Portal
   - FrontOfOb
+  - ProjectileZone
+  - ProjectileActionZone
   layers:
   - Default
   - TransparentFX

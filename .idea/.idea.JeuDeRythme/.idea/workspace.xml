@@ -22,7 +22,20 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Alpha/scripts/ProjectileZone.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Alpha/scripts/Projectile.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Adryan Hauton/Script/UIManagement.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Alpha/scripts/Projectile.cs" />
+        <option value="$PROJECT_DIR$/Assets/Alpha/scripts/ProjectileZone.cs" />
+        <option value="$PROJECT_DIR$/Assets/Alpha/scripts/ProjectileActionZone.cs" />
+        <option value="$PROJECT_DIR$/Assets/Adryan Hauton/Script/LevelScrolling.cs" />
+        <option value="$PROJECT_DIR$/Assets/Adryan Hauton/Script/PlayerProperties.cs" />
+      </list>
+    </option>
   </component>
   <component name="ProjectId" id="1zXh0nlhXNLKvjK3eSivIvm78Rf" />
   <component name="ProjectViewState">
@@ -45,9 +58,8 @@
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
-      <option name="projectPathOnTarget" />
       <option name="selectedOptions">
-        <list />
+        <set />
       </option>
       <method v="2" />
     </configuration>
@@ -55,9 +67,8 @@
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
-      <option name="projectPathOnTarget" />
       <option name="selectedOptions">
-        <list />
+        <set />
       </option>
       <method v="2" />
     </configuration>
@@ -77,6 +88,7 @@
       <workItem from="1636979417670" duration="1595000" />
       <workItem from="1637310985664" duration="398000" />
       <workItem from="1637595937345" duration="1926000" />
+      <workItem from="1637926526341" duration="14596000" />
     </task>
     <servers />
   </component>

@@ -18,8 +18,10 @@ public class PlayerProperties : MonoBehaviour
     private Rigidbody _rigidbody;
     private MeshRenderer _mesh;
     public bool isTime = false;
+    public bool isTimeForProjectile;
     public AudioSource Death;
     private Renderer rend;
+    private GameObject projectile;
 
     void Start()
     {
@@ -28,23 +30,21 @@ public class PlayerProperties : MonoBehaviour
         _rigidbody = GetComponent<Rigidbody>();
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
-        
+
     }
 
     void Update()
     {
+        projectile = GameObject.Find("Projectile");
         if (Input.GetKey(KeyCode.RightArrow))
         {
             // attaque
         }
-       
-        if (Input.GetKey(KeyCode.LeftArrow))
+
+        if (Input.GetKeyDown(KeyCode.LeftArrow) && isTimeForProjectile)
         {
-            rend.material.SetColor("_Color", Color.yellow);
-        }
-        else
-        {
-            rend.material.SetColor("_Color", Color.white);
+            Destroy(projectile);
+            isTimeForProjectile = false;
         }
         
         if (Input.GetKeyDown(KeyCode.UpArrow) && _isGrounded && isTime)
@@ -90,6 +90,11 @@ public class PlayerProperties : MonoBehaviour
         {
             PlayerDeath();
         }
+
+        if (other.gameObject.CompareTag("ProjectileActionZone"))
+        {
+            isTimeForProjectile = true;
+        }
     }
 
     private void OnTriggerExit(Collider other)
@@ -100,7 +105,7 @@ public class PlayerProperties : MonoBehaviour
         }
     }
 
-    void PlayerDeath()
+    public void PlayerDeath()
     {
         Destroy(_mesh);
         LevelScrolling._scrollingSpeed = 0f;
@@ -113,7 +118,8 @@ public class PlayerProperties : MonoBehaviour
 
     void ReloadScene()
     {
-        LoadScene("SceneLvl1");
+        Scene scene = GetActiveScene();
+        LoadScene(scene.name);
     }
 
 }
