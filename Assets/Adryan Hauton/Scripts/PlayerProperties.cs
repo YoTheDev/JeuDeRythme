@@ -19,11 +19,9 @@ public class PlayerProperties : MonoBehaviour
     private MeshRenderer _mesh;
     public bool isTime = false;
     public AudioSource Death;
-    private Renderer rend;
 
     void Start()
     {
-        rend = GetComponent<Renderer>();
         _mesh = GetComponent<MeshRenderer>();
         _rigidbody = GetComponent<Rigidbody>();
         Cursor.lockState = CursorLockMode.Locked;
@@ -40,13 +38,9 @@ public class PlayerProperties : MonoBehaviour
        
         if (Input.GetKey(KeyCode.LeftArrow))
         {
-            rend.material.SetColor("_Color", Color.yellow);
+           // parade
         }
-        else
-        {
-            rend.material.SetColor("_Color", Color.white);
-        }
-        
+
         if (Input.GetKeyDown(KeyCode.UpArrow) && _isGrounded && isTime)
         {
             _rigidbody.AddForce(0, JumpPower, 0, ForceMode.Impulse);
