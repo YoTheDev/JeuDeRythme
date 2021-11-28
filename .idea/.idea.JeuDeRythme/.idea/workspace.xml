@@ -29,10 +29,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Alpha/scripts/Projectile.cs" />
         <option value="$PROJECT_DIR$/Assets/Alpha/scripts/ProjectileZone.cs" />
         <option value="$PROJECT_DIR$/Assets/Alpha/scripts/ProjectileActionZone.cs" />
         <option value="$PROJECT_DIR$/Assets/Adryan Hauton/Script/LevelScrolling.cs" />
+        <option value="$PROJECT_DIR$/Assets/Alpha/scripts/Projectile.cs" />
         <option value="$PROJECT_DIR$/Assets/Adryan Hauton/Script/PlayerProperties.cs" />
       </list>
     </option>
@@ -89,6 +89,8 @@
       <workItem from="1637310985664" duration="398000" />
       <workItem from="1637595937345" duration="1926000" />
       <workItem from="1637926526341" duration="14596000" />
+      <workItem from="1637953437503" duration="2638000" />
+      <workItem from="1638009114111" duration="4526000" />
     </task>
     <servers />
   </component>

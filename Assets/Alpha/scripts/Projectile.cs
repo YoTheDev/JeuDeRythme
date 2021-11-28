@@ -9,9 +9,13 @@ public class Projectile : MonoBehaviour
     // Start is called before the first frame update
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.CompareTag("Player"))
+        if (other.gameObject.CompareTag("Player") && Player.GetComponent<PlayerProperties>().ActionParade == false)
         {
             Player.GetComponent<PlayerProperties>().PlayerDeath();
+        }
+        else
+        {
+            Destroy(this.gameObject);
         }
     }
 }

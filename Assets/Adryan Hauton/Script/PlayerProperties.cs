@@ -22,6 +22,8 @@ public class PlayerProperties : MonoBehaviour
     public AudioSource Death;
     private Renderer rend;
     private GameObject projectile;
+    public bool ActionParade;
+    public bool LockAction;
 
     void Start()
     {
@@ -43,14 +45,25 @@ public class PlayerProperties : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.LeftArrow) && isTimeForProjectile)
         {
-            Destroy(projectile);
             isTimeForProjectile = false;
+            ActionParade = true;
+            Invoke("FinParade",1);
         }
-        
+
         if (Input.GetKeyDown(KeyCode.UpArrow) && _isGrounded && isTime)
         {
             _rigidbody.AddForce(0, JumpPower, 0, ForceMode.Impulse);
         }
+    }
+
+    void FinParade()
+    {
+        ActionParade = false;
+    }
+
+    void UnlockAction()
+    {
+        
     }
 
     private void OnCollisionEnter(Collision other)
@@ -121,5 +134,4 @@ public class PlayerProperties : MonoBehaviour
         Scene scene = GetActiveScene();
         LoadScene(scene.name);
     }
-
 }
