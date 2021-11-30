@@ -22,9 +22,11 @@ public class PlayerProperties2 : MonoBehaviour
 
     public GameObject Terrain;
     public GameObject cube;
+    public AudioSource musiclvl;
 
     public GameObject PauseUI;
     private bool inUI = false;
+    public float lvlSpeed;
 
     void Start()
     {
@@ -59,7 +61,7 @@ public class PlayerProperties2 : MonoBehaviour
         {
             inUI = true;
             LevelScrolling._scrollingSpeed = 0f;
-            Audio_manager.MusicLVL1.Pause();
+            musiclvl.Pause();
             PauseUI.SetActive(true);
         }
     }
@@ -68,8 +70,8 @@ public class PlayerProperties2 : MonoBehaviour
     public void Resume()
     {
         inUI = false;
-        Audio_manager.MusicLVL1.Play();
-        LevelScrolling._scrollingSpeed = -0.2f;
+        musiclvl.Play();
+        LevelScrolling._scrollingSpeed = -lvlSpeed;
         PauseUI.SetActive(false);
     }
 
@@ -120,7 +122,7 @@ public class PlayerProperties2 : MonoBehaviour
         Destroy(_mesh);
         LevelScrolling._scrollingSpeed = 0f;
         Particles.Play();
-        Audio_manager.MusicLVL1.Stop();
+        musiclvl.Stop();
         Death.Play();
         _rigidbody.constraints = RigidbodyConstraints.FreezePosition;
         Invoke("ReloadScene", 1);
@@ -128,7 +130,8 @@ public class PlayerProperties2 : MonoBehaviour
 
     void ReloadScene()
     {
-        LoadScene("SceneLvl1");
+        Scene scene = SceneManager.GetActiveScene();
+        SceneManager.LoadScene(scene.name);
     }
 
 }

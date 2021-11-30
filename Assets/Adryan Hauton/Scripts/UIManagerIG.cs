@@ -11,6 +11,7 @@ public class UIManagerIG : MonoBehaviour
     public GameObject Validation;
     public GameObject PauseUI;
     public GameObject SettingsUI;
+
     public AudioMixer Music;
 
     public GameObject FirstSelectPause;
@@ -64,7 +65,6 @@ public class UIManagerIG : MonoBehaviour
         SettingsUI.SetActive(false);
         myEventSystem.GetComponent<UnityEngine.EventSystems.EventSystem>().SetSelectedGameObject(FirstSelectPause);
     }
-
     public void SetMusicVol(float sliderValue)
     {
         Music.SetFloat("MusicVol", Mathf.Log10(sliderValue) * 20);

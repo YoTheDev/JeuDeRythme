@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class Audio_manager : MonoBehaviour
 {
-    public static AudioSource MusicLVL1;
+    public static AudioSource MusicLVL;
     void Start()
     {
-        MusicLVL1 = GetComponent<AudioSource>();
+        MusicLVL = GetComponent<AudioSource>();
         Invoke("TimeForPlay", 3f);
     }
     
     void TimeForPlay()
     {
-        MusicLVL1.Play();
+        MusicLVL.Play();
     }
 }
