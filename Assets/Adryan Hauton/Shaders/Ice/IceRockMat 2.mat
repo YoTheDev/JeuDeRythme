@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: IceRockMat 2
+  m_Shader: {fileID: -6465566751694194690, guid: f0d1f1e5fdb449e488a8552638de8e32, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_788434f8a7214faf8150485097c5e00c:
+        m_Texture: {fileID: 2800000, guid: 6db1612e9194d144c9a6a43e54400b0e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_2406dd4326a04925a626238c654f7a74: 0.02
+    - Vector1_5b8361990b4942da8e4ef79bbaba2e3a: 0.388
+    m_Colors:
+    - Color_35981ef70c0946e4be7e7e3f5e1f74cb: {r: 0, g: 0.6727921, b: 0.7856478, a: 1}
+    - Vector2_7e7cfd0c6b7e49139794700ca7544e27: {r: 6, g: 10, b: 0, a: 0}
+  m_BuildTextureStacks: []

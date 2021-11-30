@@ -95,7 +95,7 @@ public class PlayerProperties2 : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Portal"))
         {
-            transform.position = new Vector3(0f, 1.3f, TeleportDistance);
+            transform.position = new Vector3(242f, 25f, TeleportDistance);
         }
 
         if (other.gameObject.CompareTag("FrontOfOb"))
