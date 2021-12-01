@@ -19,11 +19,13 @@ public class PlayerProperties : MonoBehaviour
     private MeshRenderer _mesh;
     public bool isTime = false;
     public bool isTimeForProjectile;
+    public bool isTimeForAttack;
     public AudioSource Death;
     private Renderer rend;
     private GameObject projectile;
     public bool ActionParade;
-    public bool LockAction;
+    private GameObject enemy;
+    public bool ActionAttack;
 
     void Start()
     {
@@ -38,12 +40,14 @@ public class PlayerProperties : MonoBehaviour
     void Update()
     {
         projectile = GameObject.Find("Projectile");
-        if (Input.GetKey(KeyCode.RightArrow))
+        enemy = GameObject.Find("Enemy");
+        if (Input.GetKey(KeyCode.RightArrow) && isTimeForAttack && ActionAttack == false)
         {
-            // attaque
+            ActionAttack = true;
+            Destroy(enemy.gameObject);
         }
 
-        if (Input.GetKeyDown(KeyCode.LeftArrow) && isTimeForProjectile)
+        if (Input.GetKeyDown(KeyCode.LeftArrow) && isTimeForProjectile && ActionParade == false)
         {
             isTimeForProjectile = false;
             ActionParade = true;
@@ -59,11 +63,6 @@ public class PlayerProperties : MonoBehaviour
     void FinParade()
     {
         ActionParade = false;
-    }
-
-    void UnlockAction()
-    {
-        
     }
 
     private void OnCollisionEnter(Collision other)
@@ -103,10 +102,20 @@ public class PlayerProperties : MonoBehaviour
         {
             PlayerDeath();
         }
+        
+        if(other.gameObject.CompareTag("Enemy"))
+        {
+            PlayerDeath();
+        }
 
         if (other.gameObject.CompareTag("ProjectileActionZone"))
         {
             isTimeForProjectile = true;
+        }
+        
+        if (other.gameObject.CompareTag("EnemyCollider"))
+        {
+            isTimeForAttack = true;
         }
     }
 
@@ -115,6 +124,16 @@ public class PlayerProperties : MonoBehaviour
         if (other.gameObject.CompareTag("FrontOfOb"))
         {
             isTime = false;
+        }
+        
+        if (other.gameObject.CompareTag("ProjectileActionZone"))
+        {
+            isTimeForProjectile = false;
+        }
+        
+        if (other.gameObject.CompareTag("EnemyCollider"))
+        {
+            isTimeForAttack = false;
         }
     }
 
