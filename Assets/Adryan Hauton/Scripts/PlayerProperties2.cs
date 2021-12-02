@@ -8,7 +8,6 @@ using Object = UnityEngine.Object;
 
 public class PlayerProperties2 : MonoBehaviour
 {
-
     public float JumpPower;
     public LevelScrolling LevelScrolling;
     public ParticleSystem Particles;
@@ -21,12 +20,13 @@ public class PlayerProperties2 : MonoBehaviour
     public AudioSource Death;
 
     public GameObject Terrain;
-    public GameObject cube;
     public AudioSource musiclvl;
 
     public GameObject PauseUI;
-    private bool inUI = false;
     public float lvlSpeed;
+
+    public Camera cam;
+    private bool inUI = false;
 
     void Start()
     {
@@ -52,9 +52,6 @@ public class PlayerProperties2 : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.UpArrow) && _isGrounded && isTime)
         {
             _rigidbody.AddForce(0, JumpPower, 0, ForceMode.Impulse);
-
-            GameObject cubeObj = Instantiate(cube, transform.position, transform.rotation);
-            cubeObj.transform.parent = Terrain.transform;
         }
 
         if (Input.GetKey(KeyCode.Escape) && !inUI)
@@ -96,6 +93,13 @@ public class PlayerProperties2 : MonoBehaviour
         if (other.gameObject.CompareTag("Portal"))
         {
             transform.position = new Vector3(242f, 25f, TeleportDistance);
+            cam.fieldOfView = 40f;
+        }
+
+        if (other.gameObject.CompareTag("Portal2"))
+        {
+            transform.position = new Vector3(242f, 3f, 37f);
+            cam.fieldOfView = 35f;
         }
 
         if (other.gameObject.CompareTag("FrontOfOb"))

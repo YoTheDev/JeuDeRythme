@@ -9,6 +9,7 @@ TagManager:
   - Portal
   - FrontOfOb
   - WindArea
+  - Portal2
   layers:
   - Default
   - TransparentFX
