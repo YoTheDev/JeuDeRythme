@@ -20,14 +20,14 @@ RenderSettings:
   m_FogDensity: 0.01
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
-  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientSkyColor: {r: 0.6603774, g: 0.6603774, b: 0.6603774, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 1
-  m_AmbientMode: 0
+  m_AmbientMode: 3
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
   m_SkyboxMaterial: {fileID: 2100000, guid: d9dca9ae1786c394f9e79c637aa9a7bf, type: 2}
-  m_HaloStrength: 0.5
+  m_HaloStrength: 0.121
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
   m_HaloTexture: {fileID: 0}
@@ -676,7 +676,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 92a50eb3dd685cb429171218df7f54ee, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 728ea5bdf1293f14fa08ba26390fc295, type: 2}
+      objectReference: {fileID: 2100000, guid: 24af101f309cc3d488777cce22e91f9e, type: 2}
     - target: {fileID: 919132149155446097, guid: 92a50eb3dd685cb429171218df7f54ee, type: 3}
       propertyPath: m_Name
       value: Rock2 (19)
@@ -1859,7 +1859,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 92a50eb3dd685cb429171218df7f54ee, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 728ea5bdf1293f14fa08ba26390fc295, type: 2}
+      objectReference: {fileID: 2100000, guid: 24af101f309cc3d488777cce22e91f9e, type: 2}
     - target: {fileID: 919132149155446097, guid: 92a50eb3dd685cb429171218df7f54ee, type: 3}
       propertyPath: m_Name
       value: Rock2 (16)
@@ -2568,7 +2568,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 92a50eb3dd685cb429171218df7f54ee, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 728ea5bdf1293f14fa08ba26390fc295, type: 2}
+      objectReference: {fileID: 2100000, guid: 24af101f309cc3d488777cce22e91f9e, type: 2}
     - target: {fileID: 919132149155446097, guid: 92a50eb3dd685cb429171218df7f54ee, type: 3}
       propertyPath: m_Name
       value: Rock2 (17)
@@ -10264,6 +10264,84 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 92a50eb3dd685cb429171218df7f54ee, type: 3}
+--- !u!1001 &780538371
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1302576984}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 92a50eb3dd685cb429171218df7f54ee, type: 3}
+      propertyPath: m_RootOrder
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 92a50eb3dd685cb429171218df7f54ee, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2751.792
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 92a50eb3dd685cb429171218df7f54ee, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 5138.037
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 92a50eb3dd685cb429171218df7f54ee, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1433.361
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 92a50eb3dd685cb429171218df7f54ee, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 450.2
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 92a50eb3dd685cb429171218df7f54ee, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 377.3
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 92a50eb3dd685cb429171218df7f54ee, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2084
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 92a50eb3dd685cb429171218df7f54ee, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.96383816
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 92a50eb3dd685cb429171218df7f54ee, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.050565243
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 92a50eb3dd685cb429171218df7f54ee, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.25520784
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 92a50eb3dd685cb429171218df7f54ee, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.05768987
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 92a50eb3dd685cb429171218df7f54ee, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 3.901
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 92a50eb3dd685cb429171218df7f54ee, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -330.07
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 92a50eb3dd685cb429171218df7f54ee, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 7.894
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 92a50eb3dd685cb429171218df7f54ee, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 99ba8eab6b8bcd548907193595d2a1cd, type: 2}
+    - target: {fileID: 919132149155446097, guid: 92a50eb3dd685cb429171218df7f54ee, type: 3}
+      propertyPath: m_Name
+      value: Rock2 (18)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 92a50eb3dd685cb429171218df7f54ee, type: 3}
+--- !u!4 &780538372 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 92a50eb3dd685cb429171218df7f54ee, type: 3}
+  m_PrefabInstance: {fileID: 780538371}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &816769025
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10739,7 +10817,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 92a50eb3dd685cb429171218df7f54ee, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 728ea5bdf1293f14fa08ba26390fc295, type: 2}
+      objectReference: {fileID: 2100000, guid: 24af101f309cc3d488777cce22e91f9e, type: 2}
     - target: {fileID: 919132149155446097, guid: 92a50eb3dd685cb429171218df7f54ee, type: 3}
       propertyPath: m_Name
       value: Rock2 (20)
@@ -11237,7 +11315,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 92a50eb3dd685cb429171218df7f54ee, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 728ea5bdf1293f14fa08ba26390fc295, type: 2}
+      objectReference: {fileID: 2100000, guid: 24af101f309cc3d488777cce22e91f9e, type: 2}
     - target: {fileID: 919132149155446097, guid: 92a50eb3dd685cb429171218df7f54ee, type: 3}
       propertyPath: m_Name
       value: Rock2 (21)
@@ -13586,6 +13664,7 @@ Transform:
   - {fileID: 614999308}
   - {fileID: 98437210}
   - {fileID: 677279492}
+  - {fileID: 780538372}
   m_Father: {fileID: 1235879413}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -18217,7 +18296,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 92a50eb3dd685cb429171218df7f54ee, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 728ea5bdf1293f14fa08ba26390fc295, type: 2}
+      objectReference: {fileID: 2100000, guid: 24af101f309cc3d488777cce22e91f9e, type: 2}
     - target: {fileID: 919132149155446097, guid: 92a50eb3dd685cb429171218df7f54ee, type: 3}
       propertyPath: m_Name
       value: Rock2 (15)
@@ -20421,7 +20500,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1537047083}
         m_TargetAssemblyTypeName: UIManagerIG, Assembly-CSharp
         m_MethodName: ToMenu
         m_Mode: 1
