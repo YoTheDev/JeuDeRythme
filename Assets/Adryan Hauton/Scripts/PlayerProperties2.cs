@@ -28,6 +28,15 @@ public class PlayerProperties2 : MonoBehaviour
     public Camera cam;
     private bool inUI = false;
 
+    public bool isTimeForProjectile;
+    public bool isTimeForAttack;
+    private GameObject enemy;
+    public bool ActionAttack;
+    private GameObject projectile;
+    public bool ActionParade;
+
+
+
     void Start()
     {
         _mesh = GetComponent<MeshRenderer>();
@@ -39,15 +48,21 @@ public class PlayerProperties2 : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKey(KeyCode.RightArrow))
+        projectile = GameObject.Find("Projectile");
+        enemy = GameObject.Find("Enemy");
+
+        if (Input.GetKey(KeyCode.RightArrow) && isTimeForAttack && ActionAttack == false) 
         {
-            // attaque
+            ActionAttack = true;
+            Destroy(enemy.gameObject);
         }
-       
-        if (Input.GetKey(KeyCode.LeftArrow))
+
+        if (Input.GetKeyDown(KeyCode.LeftArrow) && isTimeForProjectile && ActionParade == false)
         {
-           // parade
+            isTimeForProjectile = false;
+            ActionParade = true;
         }
+
 
         if (Input.GetKeyDown(KeyCode.UpArrow) && _isGrounded && isTime)
         {
@@ -111,6 +126,21 @@ public class PlayerProperties2 : MonoBehaviour
         {
             PlayerDeath();
         }
+
+        if (other.gameObject.CompareTag("Enemy"))
+        {
+            PlayerDeath();
+        }
+
+        if (other.gameObject.CompareTag("ProjectileActionZone"))
+        {
+            isTimeForProjectile = true;
+        }
+
+        if (other.gameObject.CompareTag("EnemyCollider"))
+        {
+            isTimeForAttack = true;
+        }
     }
 
     private void OnTriggerExit(Collider other)
@@ -119,9 +149,20 @@ public class PlayerProperties2 : MonoBehaviour
         {
             isTime = false;
         }
+
+        if (other.gameObject.CompareTag("ProjectileActionZone"))
+        {
+            isTimeForProjectile = false;
+            ActionParade = false;
+        }
+
+        if (other.gameObject.CompareTag("EnemyCollider"))
+        {
+            isTimeForAttack = false;
+        }
     }
 
-    void PlayerDeath()
+    public void PlayerDeath()
     {
         Destroy(_mesh);
         LevelScrolling._scrollingSpeed = 0f;

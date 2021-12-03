@@ -20,7 +20,6 @@ public class PPCavern : MonoBehaviour
         if (other.gameObject.CompareTag("Player"))
         {
             PPInCavern();
-            Debug.Log("lu");
         }
     }
 
