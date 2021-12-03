@@ -1,0 +1,312 @@
+fileFormatVersion: 2
+guid: 9d2e19c7662c88649a35d58a8c2c6d22
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2104662455968184934
+    second: thomas_s_Rocker _Chicken_sprite_sheet_jump_0
+  - first:
+      213: 3785472786002159217
+    second: thomas_s_Rocker _Chicken_sprite_sheet_jump_1
+  - first:
+      213: 4291322727465895947
+    second: thomas_s_Rocker _Chicken_sprite_sheet_jump_2
+  - first:
+      213: 3953871054151978456
+    second: thomas_s_Rocker _Chicken_sprite_sheet_jump_3
+  - first:
+      213: 2600446525392517084
+    second: thomas_s_Rocker _Chicken_sprite_sheet_jump_4
+  - first:
+      213: 2299245407319913397
+    second: thomas_s_Rocker _Chicken_sprite_sheet_jump_5
+  - first:
+      213: 3960552019218200231
+    second: thomas_s_Rocker _Chicken_sprite_sheet_jump_6
+  - first:
+      213: -3190105682133924219
+    second: thomas_s_Rocker _Chicken_sprite_sheet_jump_7
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: thomas_s_Rocker _Chicken_sprite_sheet_jump_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1559
+        width: 1256
+        height: 1085
+      alignment: 9
+      pivot: {x: 0.8251491, y: 0.005555493}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66ab51c4a53453d10800000000000000
+      internalID: 2104662455968184934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thomas_s_Rocker _Chicken_sprite_sheet_jump_1
+      rect:
+        serializedVersion: 2
+        x: 1499
+        y: 1571
+        width: 1229
+        height: 1177
+      alignment: 9
+      pivot: {x: 0.82351476, y: 0.005734297}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 176219c4173b88430800000000000000
+      internalID: 3785472786002159217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thomas_s_Rocker _Chicken_sprite_sheet_jump_2
+      rect:
+        serializedVersion: 2
+        x: 2945
+        y: 1660
+        width: 1458
+        height: 1272
+      alignment: 9
+      pivot: {x: 0.81863064, y: -0.0034153776}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b084a23c847dd8b30800000000000000
+      internalID: 4291322727465895947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thomas_s_Rocker _Chicken_sprite_sheet_jump_3
+      rect:
+        serializedVersion: 2
+        x: 4616
+        y: 1724
+        width: 1394
+        height: 1211
+      alignment: 9
+      pivot: {x: 0.79723155, y: -0.001124942}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dd8d6676c8fed630800000000000000
+      internalID: 3953871054151978456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thomas_s_Rocker _Chicken_sprite_sheet_jump_4
+      rect:
+        serializedVersion: 2
+        x: 6196
+        y: 1660
+        width: 1353
+        height: 984
+      alignment: 9
+      pivot: {x: 0.7969584, y: -0.0018906011}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd77b6b4654a61420800000000000000
+      internalID: 2600446525392517084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thomas_s_Rocker _Chicken_sprite_sheet_jump_5
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 265
+        width: 1476
+        height: 1029
+      alignment: 9
+      pivot: {x: 0.7722119, y: 0.0037887173}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b370ca148f88ef10800000000000000
+      internalID: 2299245407319913397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thomas_s_Rocker _Chicken_sprite_sheet_jump_6
+      rect:
+        serializedVersion: 2
+        x: 1742
+        y: 277
+        width: 1536
+        height: 1065
+      alignment: 9
+      pivot: {x: 0.7561291, y: 0.00091300573}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a6f4fbd315b6f630800000000000000
+      internalID: 3960552019218200231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thomas_s_Rocker _Chicken_sprite_sheet_jump_7
+      rect:
+        serializedVersion: 2
+        x: 3446
+        y: 277
+        width: 1461
+        height: 1028
+      alignment: 9
+      pivot: {x: 0.7836008, y: -0.0007652253}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 586c374b8c77ab3d0800000000000000
+      internalID: -3190105682133924219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5fe19f5fe9a68bc4090f8b3c4700e476
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
