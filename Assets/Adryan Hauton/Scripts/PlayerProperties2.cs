@@ -53,7 +53,6 @@ public class PlayerProperties2 : MonoBehaviour
 
         if (Input.GetKey(KeyCode.RightArrow) && isTimeForAttack && ActionAttack == false) 
         {
-            ActionAttack = true;
             Destroy(enemy.gameObject);
         }
 
