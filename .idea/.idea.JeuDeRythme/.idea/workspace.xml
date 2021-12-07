@@ -18,9 +18,6 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/EndForLvl.cs" root0="FORCE_HIGHLIGHTING" />
-  </component>
   <component name="ProjectId" id="1zXh0nlhXNLKvjK3eSivIvm78Rf" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -73,6 +70,7 @@
       <workItem from="1637582696803" duration="4660000" />
       <workItem from="1637916332335" duration="1700000" />
       <workItem from="1637931909250" duration="1569000" />
+      <workItem from="1638522370669" duration="1637000" />
     </task>
     <servers />
   </component>

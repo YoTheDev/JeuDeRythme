@@ -53,8 +53,8 @@ public class PlayerProperties2 : MonoBehaviour
 
         if (Input.GetKey(KeyCode.RightArrow) && isTimeForAttack && ActionAttack == false) 
         {
-            ActionAttack = true;
             Destroy(enemy.gameObject);
+            ActionAttack = true;
         }
 
         if (Input.GetKeyDown(KeyCode.LeftArrow) && isTimeForProjectile && ActionParade == false)
@@ -159,6 +159,7 @@ public class PlayerProperties2 : MonoBehaviour
         if (other.gameObject.CompareTag("EnemyCollider"))
         {
             isTimeForAttack = false;
+            ActionAttack = false;
         }
     }
 
