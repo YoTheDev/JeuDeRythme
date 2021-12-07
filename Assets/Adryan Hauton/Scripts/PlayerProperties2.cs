@@ -49,11 +49,12 @@ public class PlayerProperties2 : MonoBehaviour
     void Update()
     {
         projectile = GameObject.Find("Projectile");
-        enemy = GameObject.Find("Enemy");
+        enemy = GameObject.FindWithTag("Enemy");
 
         if (Input.GetKey(KeyCode.RightArrow) && isTimeForAttack && ActionAttack == false) 
         {
             Destroy(enemy.gameObject);
+            isTimeForAttack = false;
         }
 
         if (Input.GetKeyDown(KeyCode.LeftArrow) && isTimeForProjectile && ActionParade == false)
@@ -158,6 +159,7 @@ public class PlayerProperties2 : MonoBehaviour
         if (other.gameObject.CompareTag("EnemyCollider"))
         {
             isTimeForAttack = false;
+            ActionAttack = false;
         }
     }
 
@@ -174,8 +176,8 @@ public class PlayerProperties2 : MonoBehaviour
 
     void ReloadScene()
     {
-        Scene scene = SceneManager.GetActiveScene();
-        SceneManager.LoadScene(scene.name);
+        Scene scene = GetActiveScene();
+        LoadScene(scene.name);
     }
 
 }
