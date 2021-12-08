@@ -34,6 +34,7 @@ public class PlayerProperties2 : MonoBehaviour
     public bool ActionAttack;
     private GameObject projectile;
     public bool ActionParade;
+    private bool isDead;
 
 
 
@@ -51,30 +52,39 @@ public class PlayerProperties2 : MonoBehaviour
         projectile = GameObject.Find("Projectile");
         enemy = GameObject.FindWithTag("Enemy");
 
-        if (Input.GetKey(KeyCode.RightArrow) && isTimeForAttack && ActionAttack == false) 
+        if (Input.GetKey(KeyCode.RightArrow) && isTimeForAttack && ActionAttack == false && isDead == false) 
         {
             Destroy(enemy.gameObject);
             isTimeForAttack = false;
         }
 
-        if (Input.GetKeyDown(KeyCode.LeftArrow) && isTimeForProjectile && ActionParade == false)
+        if (Input.GetKeyDown(KeyCode.LeftArrow) && isTimeForProjectile && ActionParade == false && isDead == false)
         {
             isTimeForProjectile = false;
             ActionParade = true;
         }
 
 
-        if (Input.GetKeyDown(KeyCode.UpArrow) && _isGrounded && isTime)
+        if (Input.GetKeyDown(KeyCode.UpArrow) && _isGrounded && isTime && isDead == false)
         {
             _rigidbody.AddForce(0, JumpPower, 0, ForceMode.Impulse);
         }
 
-        if (Input.GetKey(KeyCode.Escape) && !inUI)
+        if (Input.GetKeyDown(KeyCode.Escape) && !inUI && isDead == false)
         {
             inUI = true;
             LevelScrolling._scrollingSpeed = 0f;
             musiclvl.Pause();
+            Death.Pause();
             PauseUI.SetActive(true);
+            Time.timeScale = 0;
+        }
+        else
+        {
+            if (Input.GetKeyDown(KeyCode.Escape) && inUI)
+            {
+                Resume();
+            }
         }
     }
 
@@ -83,8 +93,10 @@ public class PlayerProperties2 : MonoBehaviour
     {
         inUI = false;
         musiclvl.Play();
+        Death.Play();
         LevelScrolling._scrollingSpeed = -lvlSpeed;
         PauseUI.SetActive(false);
+        Time.timeScale = 1;
     }
 
     private void OnCollisionEnter(Collision other)
@@ -165,6 +177,7 @@ public class PlayerProperties2 : MonoBehaviour
 
     public void PlayerDeath()
     {
+        isDead = true;
         Destroy(_mesh);
         LevelScrolling._scrollingSpeed = 0f;
         Particles.Play();

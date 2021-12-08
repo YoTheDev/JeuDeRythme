@@ -1,5 +1,7 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.Experimental.TerrainAPI;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.Audio;
@@ -29,6 +31,16 @@ public class UIManagerIG : MonoBehaviour
         PauseUI.SetActive(false);
         SettingsUI.SetActive(false);
         SetSlider();
+    }
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Validation.SetActive(false);
+            PauseUI.SetActive(false);
+            SettingsUI.SetActive(false);
+        }
     }
 
     public void ToMenu()
@@ -65,6 +77,7 @@ public class UIManagerIG : MonoBehaviour
         SettingsUI.SetActive(false);
         myEventSystem.GetComponent<UnityEngine.EventSystems.EventSystem>().SetSelectedGameObject(FirstSelectPause);
     }
+    
     public void SetMusicVol(float sliderValue)
     {
         Music.SetFloat("MusicVol", Mathf.Log10(sliderValue) * 20);
