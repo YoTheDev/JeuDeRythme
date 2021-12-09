@@ -15,7 +15,7 @@ public class PlayerProperties2 : MonoBehaviour
 
     [SerializeField]private bool _isGrounded = false;
     private Rigidbody _rigidbody;
-    private MeshRenderer _mesh;
+    private GameObject _sprite;
     public bool isTime = false;
     public AudioSource Death;
 
@@ -40,7 +40,7 @@ public class PlayerProperties2 : MonoBehaviour
 
     void Start()
     {
-        _mesh = GetComponent<MeshRenderer>();
+        _sprite = GameObject.Find("Graphics");
         _rigidbody = GetComponent<Rigidbody>();
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
@@ -70,21 +70,13 @@ public class PlayerProperties2 : MonoBehaviour
             _rigidbody.AddForce(0, JumpPower, 0, ForceMode.Impulse);
         }
 
-        if (Input.GetKeyDown(KeyCode.Escape) && !inUI && isDead == false)
+        if (Input.GetKeyDown(KeyCode.Escape) && inUI == false && isDead == false)
         {
             inUI = true;
             LevelScrolling._scrollingSpeed = 0f;
             musiclvl.Pause();
-            Death.Pause();
             PauseUI.SetActive(true);
             Time.timeScale = 0;
-        }
-        else
-        {
-            if (Input.GetKeyDown(KeyCode.Escape) && inUI)
-            {
-                Resume();
-            }
         }
     }
 
@@ -93,9 +85,8 @@ public class PlayerProperties2 : MonoBehaviour
     {
         inUI = false;
         musiclvl.Play();
-        Death.Play();
-        LevelScrolling._scrollingSpeed = -lvlSpeed;
         PauseUI.SetActive(false);
+        LevelScrolling._scrollingSpeed = -lvlSpeed;
         Time.timeScale = 1;
     }
 
@@ -178,7 +169,7 @@ public class PlayerProperties2 : MonoBehaviour
     public void PlayerDeath()
     {
         isDead = true;
-        Destroy(_mesh);
+        Destroy(_sprite);
         LevelScrolling._scrollingSpeed = 0f;
         Particles.Play();
         musiclvl.Stop();
@@ -192,5 +183,4 @@ public class PlayerProperties2 : MonoBehaviour
         Scene scene = GetActiveScene();
         LoadScene(scene.name);
     }
-
 }

@@ -20,7 +20,7 @@ public class UIManagement : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKey(KeyCode.Escape) && !isPaused)
+        if (Input.GetKey(KeyCode.Escape) && isPaused == false)
         {
             isPaused = true;
             PauseMenu.SetActive(true);

@@ -33,16 +33,6 @@ public class UIManagerIG : MonoBehaviour
         SetSlider();
     }
 
-    private void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.Escape))
-        {
-            Validation.SetActive(false);
-            PauseUI.SetActive(false);
-            SettingsUI.SetActive(false);
-        }
-    }
-
     public void ToMenu()
     {
         SceneManager.LoadScene("AlphaMenu");
@@ -53,7 +43,7 @@ public class UIManagerIG : MonoBehaviour
         Validation.SetActive(true);
         PauseUI.SetActive(false);
         SettingsUI.SetActive(false);
-        myEventSystem.GetComponent<UnityEngine.EventSystems.EventSystem>().SetSelectedGameObject(FirstSelectValidation);
+        myEventSystem.GetComponent<EventSystem>().SetSelectedGameObject(FirstSelectValidation);
     }
 
     public void Validate()
@@ -66,7 +56,7 @@ public class UIManagerIG : MonoBehaviour
         Validation.SetActive(false);
         PauseUI.SetActive(false);
         SettingsUI.SetActive(true);
-        myEventSystem.GetComponent<UnityEngine.EventSystems.EventSystem>().SetSelectedGameObject(FirstSelectSettings);
+        myEventSystem.GetComponent<EventSystem>().SetSelectedGameObject(FirstSelectSettings);
     }
 
 
@@ -75,7 +65,7 @@ public class UIManagerIG : MonoBehaviour
         Validation.SetActive(false);
         PauseUI.SetActive(true);
         SettingsUI.SetActive(false);
-        myEventSystem.GetComponent<UnityEngine.EventSystems.EventSystem>().SetSelectedGameObject(FirstSelectPause);
+        myEventSystem.GetComponent<EventSystem>().SetSelectedGameObject(FirstSelectPause);
     }
     
     public void SetMusicVol(float sliderValue)
