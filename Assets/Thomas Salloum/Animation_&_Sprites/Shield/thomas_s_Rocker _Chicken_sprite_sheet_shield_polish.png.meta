@@ -1,0 +1,252 @@
+fileFormatVersion: 2
+guid: 352416a057bce9349801a65e92b194af
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1917995944021615162
+    second: thomas_s_Rocker _Chicken_sprite_sheet_shield_polish_0
+  - first:
+      213: 6464908610127864221
+    second: thomas_s_Rocker _Chicken_sprite_sheet_shield_polish_1
+  - first:
+      213: 1046094660596498331
+    second: thomas_s_Rocker _Chicken_sprite_sheet_shield_polish_2
+  - first:
+      213: 5646495746214820021
+    second: thomas_s_Rocker _Chicken_sprite_sheet_shield_polish_3
+  - first:
+      213: 1118003785226179505
+    second: thomas_s_Rocker _Chicken_sprite_sheet_shield_polish_4
+  - first:
+      213: 7652042027440559306
+    second: thomas_s_Rocker _Chicken_sprite_sheet_shield_polish_5
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: thomas_s_Rocker _Chicken_sprite_sheet_shield_polish_0
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 1328
+        width: 1446
+        height: 1181
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cd93f3d9d8e165e0800000000000000
+      internalID: -1917995944021615162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thomas_s_Rocker _Chicken_sprite_sheet_shield_polish_1
+      rect:
+        serializedVersion: 2
+        x: 1738
+        y: 1327
+        width: 1069
+        height: 1547
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d91290cd028f7b950800000000000000
+      internalID: 6464908610127864221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thomas_s_Rocker _Chicken_sprite_sheet_shield_polish_2
+      rect:
+        serializedVersion: 2
+        x: 3154
+        y: 1323
+        width: 1166
+        height: 1592
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9f79462d89748e00800000000000000
+      internalID: 1046094660596498331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thomas_s_Rocker _Chicken_sprite_sheet_shield_polish_3
+      rect:
+        serializedVersion: 2
+        x: 4507
+        y: 1319
+        width: 1170
+        height: 1510
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b873eaf6f16c5e40800000000000000
+      internalID: 5646495746214820021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thomas_s_Rocker _Chicken_sprite_sheet_shield_polish_4
+      rect:
+        serializedVersion: 2
+        x: 6290
+        y: 1327
+        width: 1364
+        height: 1162
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b3d2fbe482f38f00800000000000000
+      internalID: 1118003785226179505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thomas_s_Rocker _Chicken_sprite_sheet_shield_polish_5
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 56
+        width: 1137
+        height: 1110
+      alignment: 9
+      pivot: {x: 0.957754, y: 0.017862413}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac454f38ea3813a60800000000000000
+      internalID: 7652042027440559306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 4ab52f842751049469abbde37f46adaa
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
