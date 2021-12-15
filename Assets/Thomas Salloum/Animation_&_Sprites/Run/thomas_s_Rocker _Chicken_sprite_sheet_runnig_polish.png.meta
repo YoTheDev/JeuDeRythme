@@ -1,31 +1,34 @@
 fileFormatVersion: 2
-guid: e2d88ebcfd506f84bb9f91f537f1412a
+guid: 6fbe40132781207498ec1064f046e962
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3017360867236316365
-    second: thomas_s_Rocker _Chicken_sprite_sheet_runnig_0
+      213: -5650213506468877129
+    second: thomas_s_Rocker _Chicken_sprite_sheet_runnig_polish_0
   - first:
-      213: -2708413169092088961
-    second: thomas_s_Rocker _Chicken_sprite_sheet_runnig_1
+      213: 521269178666393552
+    second: thomas_s_Rocker _Chicken_sprite_sheet_runnig_polish_1
   - first:
-      213: -2617650745510367431
-    second: thomas_s_Rocker _Chicken_sprite_sheet_runnig_2
+      213: 1761396278485330720
+    second: thomas_s_Rocker _Chicken_sprite_sheet_runnig_polish_2
   - first:
-      213: 4451740566620458172
-    second: thomas_s_Rocker _Chicken_sprite_sheet_runnig_3
+      213: -4636115511895220528
+    second: thomas_s_Rocker _Chicken_sprite_sheet_runnig_polish_3
   - first:
-      213: 7584419297324561636
-    second: thomas_s_Rocker _Chicken_sprite_sheet_runnig_4
+      213: -4984501022380510923
+    second: thomas_s_Rocker _Chicken_sprite_sheet_runnig_polish_4
   - first:
-      213: -7566227742191512250
-    second: thomas_s_Rocker _Chicken_sprite_sheet_runnig_5
+      213: -4986341804175975618
+    second: thomas_s_Rocker _Chicken_sprite_sheet_runnig_polish_5
   - first:
-      213: -7789379736700576799
-    second: thomas_s_Rocker _Chicken_sprite_sheet_runnig_6
+      213: -6558213588517603091
+    second: thomas_s_Rocker _Chicken_sprite_sheet_runnig_polish_6
   - first:
-      213: 3832526287543418849
-    second: thomas_s_Rocker _Chicken_sprite_sheet_runnig_7
+      213: 4089354473584338755
+    second: thomas_s_Rocker _Chicken_sprite_sheet_runnig_polish_7
+  - first:
+      213: -5381368252006781340
+    second: thomas_s_Rocker _Chicken_sprite_sheet_runnig_polish_8
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -127,127 +130,127 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: thomas_s_Rocker _Chicken_sprite_sheet_runnig_0
+      name: thomas_s_Rocker _Chicken_sprite_sheet_runnig_polish_0
       rect:
         serializedVersion: 2
-        x: 108
-        y: 1330
-        width: 1166
-        height: 1107
-      alignment: 9
-      pivot: {x: 0.799723, y: 0.0006191733}
+        x: 235
+        y: 1596
+        width: 1181
+        height: 1128
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 33bf635274e2026d0800000000000000
-      internalID: -3017360867236316365
+      spriteID: 7bceec180c86691b0800000000000000
+      internalID: -5650213506468877129
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: thomas_s_Rocker _Chicken_sprite_sheet_runnig_1
+      name: thomas_s_Rocker _Chicken_sprite_sheet_runnig_polish_1
       rect:
         serializedVersion: 2
-        x: 1284
-        y: 1328
-        width: 1103
-        height: 1067
-      alignment: 9
-      pivot: {x: 0.8310427, y: -0.00016554428}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f7ba64f8298c96ad0800000000000000
-      internalID: -2708413169092088961
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: thomas_s_Rocker _Chicken_sprite_sheet_runnig_2
-      rect:
-        serializedVersion: 2
-        x: 2406
-        y: 1323
-        width: 1140
-        height: 1091
-      alignment: 9
-      pivot: {x: 0.79480237, y: 0.0023075875}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 93f61df048c3cabd0800000000000000
-      internalID: -2617650745510367431
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: thomas_s_Rocker _Chicken_sprite_sheet_runnig_3
-      rect:
-        serializedVersion: 2
-        x: 3569
-        y: 1357
-        width: 1136
-        height: 1038
-      alignment: 9
-      pivot: {x: 0.809373, y: -0.003519106}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cbccb918572c7cd30800000000000000
-      internalID: 4451740566620458172
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: thomas_s_Rocker _Chicken_sprite_sheet_runnig_4
-      rect:
-        serializedVersion: 2
-        x: 4854
-        y: 1390
+        x: 1409
+        y: 1611
         width: 1106
-        height: 994
-      alignment: 9
-      pivot: {x: 0.7847496, y: -0.0041020047}
+        height: 1068
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4e4f5acba25414960800000000000000
-      internalID: 7584419297324561636
+      spriteID: 0df15c26e8beb3700800000000000000
+      internalID: 521269178666393552
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: thomas_s_Rocker _Chicken_sprite_sheet_runnig_5
+      name: thomas_s_Rocker _Chicken_sprite_sheet_runnig_polish_2
       rect:
         serializedVersion: 2
-        x: 6125
-        y: 1312
-        width: 1114
-        height: 1061
-      alignment: 9
-      pivot: {x: 0.772933, y: 0.09449139}
+        x: 2511
+        y: 1611
+        width: 1159
+        height: 1106
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 64518f0c4fb5ff690800000000000000
-      internalID: -7566227742191512250
+      spriteID: 02b20df359cb17810800000000000000
+      internalID: 1761396278485330720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thomas_s_Rocker _Chicken_sprite_sheet_runnig_polish_3
+      rect:
+        serializedVersion: 2
+        x: 3692
+        y: 1633
+        width: 1144
+        height: 1061
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0de9ecf418539afb0800000000000000
+      internalID: -4636115511895220528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thomas_s_Rocker _Chicken_sprite_sheet_runnig_polish_4
+      rect:
+        serializedVersion: 2
+        x: 4974
+        y: 1670
+        width: 1107
+        height: 1009
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 531307aaabe73dab0800000000000000
+      internalID: -4984501022380510923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thomas_s_Rocker _Chicken_sprite_sheet_runnig_polish_6
+      rect:
+        serializedVersion: 2
+        x: 6256
+        y: 1581
+        width: 1110
+        height: 1091
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de8b447fc7b8cf4a0800000000000000
+      internalID: -6558213588517603091
       vertices: []
       indices: 
       edges: []
@@ -255,7 +258,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: c492088d1513921458019c1e35d8d513
     internalID: 0
     vertices: []
     indices: 

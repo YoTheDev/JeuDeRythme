@@ -1,25 +1,19 @@
 fileFormatVersion: 2
-guid: 07c101490f82a374a8d47f8bac6a16f9
+guid: b693ef2332cfb1444a953742eb60d01c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4495394177761547440
-    second: thomas_s_Rocker _Chicken_sprite_sheet_attack_polish_0
+      213: -3243754963982238575
+    second: thomas_s_Rocker _Chicken_sprite_sheet_enemy_throwing_polish_0
   - first:
-      213: 6869643875989809785
-    second: thomas_s_Rocker _Chicken_sprite_sheet_attack_polish_1
+      213: 6453985415991350638
+    second: thomas_s_Rocker _Chicken_sprite_sheet_enemy_throwing_polish_1
   - first:
-      213: 8242876770668768992
-    second: thomas_s_Rocker _Chicken_sprite_sheet_attack_polish_2
+      213: 2619394457802640637
+    second: thomas_s_Rocker _Chicken_sprite_sheet_enemy_throwing_polish_2
   - first:
-      213: 7013637827066460046
-    second: thomas_s_Rocker _Chicken_sprite_sheet_attack_polish_3
-  - first:
-      213: 595607478501430682
-    second: thomas_s_Rocker _Chicken_sprite_sheet_attack_polish_4
-  - first:
-      213: 305731292840305825
-    second: thomas_s_Rocker _Chicken_sprite_sheet_attack_polish_5
+      213: 3100719830771384687
+    second: thomas_s_Rocker _Chicken_sprite_sheet_enemy_throwing_polish_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -105,131 +99,101 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: thomas_s_Rocker _Chicken_sprite_sheet_attack_polish_0
+      name: thomas_s_Rocker _Chicken_sprite_sheet_enemy_throwing_polish_0
       rect:
         serializedVersion: 2
-        x: 93
-        y: 1562
-        width: 1092
-        height: 1301
-      alignment: 9
-      pivot: {x: 0.15726323, y: 0.0035080437}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0b416d2ef29d26e30800000000000000
-      internalID: 4495394177761547440
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: thomas_s_Rocker _Chicken_sprite_sheet_attack_polish_1
-      rect:
-        serializedVersion: 2
-        x: 1394
-        y: 1547
+        x: 127
+        y: 239
         width: 1017
-        height: 1316
-      alignment: 9
-      pivot: {x: 0.2531624, y: 0.0034679656}
+        height: 1212
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 97a6fc155b0e55f50800000000000000
-      internalID: 6869643875989809785
+      spriteID: 19cbd61eb0edbf2d0800000000000000
+      internalID: -3243754963982238575
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: thomas_s_Rocker _Chicken_sprite_sheet_attack_polish_2
+      name: thomas_s_Rocker _Chicken_sprite_sheet_enemy_throwing_polish_1
       rect:
         serializedVersion: 2
-        x: 2691
-        y: 1555
-        width: 1080
-        height: 1222
-      alignment: 9
-      pivot: {x: 0.21684729, y: -0.000000099893875}
+        x: 1869
+        y: 176
+        width: 1098
+        height: 1428
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0eee70310c4946270800000000000000
-      internalID: 8242876770668768992
+      spriteID: e6557b98a89219950800000000000000
+      internalID: 6453985415991350638
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: thomas_s_Rocker _Chicken_sprite_sheet_attack_polish_3
+      name: thomas_s_Rocker _Chicken_sprite_sheet_enemy_throwing_polish_2
       rect:
         serializedVersion: 2
-        x: 3861
-        y: 1547
-        width: 1222
-        height: 998
-      alignment: 9
-      pivot: {x: 0.4412804, y: -0.008753958}
+        x: 3393
+        y: 79
+        width: 1125
+        height: 1563
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e87f981a172755160800000000000000
-      internalID: 7013637827066460046
+      spriteID: dfc04f79165f95420800000000000000
+      internalID: 2619394457802640637
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: thomas_s_Rocker _Chicken_sprite_sheet_attack_polish_4
+      name: thomas_s_Rocker _Chicken_sprite_sheet_enemy_throwing_polish_3
       rect:
         serializedVersion: 2
-        x: 5326
-        y: 1252
-        width: 833
-        height: 1263
-      alignment: 9
-      pivot: {x: 0.28118142, y: 0.25964782}
+        x: 4952
+        y: 179
+        width: 1091
+        height: 1332
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a95d4a598d5044800800000000000000
-      internalID: 595607478501430682
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: thomas_s_Rocker _Chicken_sprite_sheet_attack_polish_5
-      rect:
-        serializedVersion: 2
-        x: 6398
-        y: 1551
-        width: 1256
-        height: 1039
-      alignment: 9
-      pivot: {x: 0.13043252, y: -0.00037784228}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1a4a772bdfc2e3400800000000000000
-      internalID: 305731292840305825
+      spriteID: f61432df148f70b20800000000000000
+      internalID: 3100719830771384687
       vertices: []
       indices: 
       edges: []
@@ -237,7 +201,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 2ee192f50f9b9d840b87d0f260d7ae29
+    spriteID: f38bf78de3aa8ba438c813c218292b08
     internalID: 0
     vertices: []
     indices: 

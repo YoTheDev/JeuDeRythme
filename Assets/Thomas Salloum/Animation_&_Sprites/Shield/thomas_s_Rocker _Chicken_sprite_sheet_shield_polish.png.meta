@@ -116,8 +116,8 @@ TextureImporter:
         y: 1328
         width: 1446
         height: 1181
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.1054418, y: -0.015459208}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -137,8 +137,8 @@ TextureImporter:
         y: 1327
         width: 1069
         height: 1547
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.14134988, y: -0.008851242}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -158,8 +158,8 @@ TextureImporter:
         y: 1323
         width: 1166
         height: 1592
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.13595618, y: -0.0028671187}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -179,8 +179,8 @@ TextureImporter:
         y: 1319
         width: 1170
         height: 1510
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.1176954, y: -0.0000002425238}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -200,8 +200,8 @@ TextureImporter:
         y: 1327
         width: 1364
         height: 1162
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.10179948, y: -0.0000001050519}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -217,12 +217,12 @@ TextureImporter:
       name: thomas_s_Rocker _Chicken_sprite_sheet_shield_polish_5
       rect:
         serializedVersion: 2
-        x: 7
-        y: 56
+        x: 12
+        y: 51
         width: 1137
         height: 1110
       alignment: 9
-      pivot: {x: 0.957754, y: 0.017862413}
+      pivot: {x: 0.4880818, y: 0.017862173}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
