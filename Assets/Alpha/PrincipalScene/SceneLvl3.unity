@@ -17237,7 +17237,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7173556270637747179, guid: 57d375ae282eb834ba3249ed5be26cbf, type: 3}
       propertyPath: m_UseGravity
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7173556270637747180, guid: 57d375ae282eb834ba3249ed5be26cbf, type: 3}
       propertyPath: m_RootOrder
@@ -17285,7 +17285,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7173556270637747183, guid: 57d375ae282eb834ba3249ed5be26cbf, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7173556270637747184, guid: 57d375ae282eb834ba3249ed5be26cbf, type: 3}
       propertyPath: m_Name
