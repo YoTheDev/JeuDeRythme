@@ -49,8 +49,9 @@
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
+      <option name="projectPathOnTarget" />
       <option name="selectedOptions">
-        <set />
+        <list />
       </option>
       <method v="2" />
     </configuration>
@@ -58,8 +59,9 @@
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
+      <option name="projectPathOnTarget" />
       <option name="selectedOptions">
-        <set />
+        <list />
       </option>
       <method v="2" />
     </configuration>
@@ -86,6 +88,7 @@
       <workItem from="1638890440361" duration="2235000" />
       <workItem from="1638961510853" duration="10848000" />
       <workItem from="1639043156248" duration="7863000" />
+      <workItem from="1639664230248" duration="1662000" />
     </task>
     <servers />
   </component>

@@ -35,12 +35,14 @@ public class PlayerProperties2 : MonoBehaviour
     private GameObject projectile;
     public bool ActionParade;
     private bool isDead;
+    private Animator _Animator;
 
 
 
     void Start()
     {
-        _sprite = GameObject.Find("Graphics");
+        _sprite = GameObject.Find("graphics");
+        _Animator = GameObject.Find("graphics").GetComponent<Animator>();
         _rigidbody = GetComponent<Rigidbody>();
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
@@ -55,12 +57,14 @@ public class PlayerProperties2 : MonoBehaviour
         if (Input.GetKey(KeyCode.RightArrow) && isTimeForAttack && ActionAttack == false && isDead == false) 
         {
             Destroy(enemy.gameObject);
+            _Animator.SetTrigger("Attack");
             isTimeForAttack = false;
         }
 
         if (Input.GetKeyDown(KeyCode.LeftArrow) && isTimeForProjectile && ActionParade == false && isDead == false)
         {
             isTimeForProjectile = false;
+            _Animator.SetTrigger("Shield");
             ActionParade = true;
         }
 
@@ -68,6 +72,7 @@ public class PlayerProperties2 : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.UpArrow) && _isGrounded && isTime && isDead == false)
         {
             _rigidbody.AddForce(0, JumpPower, 0, ForceMode.Impulse);
+            _Animator.SetTrigger("Jump");
         }
 
         if (Input.GetKeyDown(KeyCode.Escape) && inUI == false && isDead == false)
