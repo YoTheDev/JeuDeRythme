@@ -1,0 +1,300 @@
+fileFormatVersion: 2
+guid: 88b7915ce752e1949a898edab2e2da6f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5148714064387371962
+    second: thomas_s_Rocker _Chicken_sprite_sheet_jump_polish_0
+  - first:
+      213: 7487253216128668235
+    second: thomas_s_Rocker _Chicken_sprite_sheet_jump_polish_1
+  - first:
+      213: -8086014978769806557
+    second: thomas_s_Rocker _Chicken_sprite_sheet_jump_polish_2
+  - first:
+      213: -8939838740553722265
+    second: thomas_s_Rocker _Chicken_sprite_sheet_jump_polish_3
+  - first:
+      213: -841096205891587803
+    second: thomas_s_Rocker _Chicken_sprite_sheet_jump_polish_4
+  - first:
+      213: 2718351821737805278
+    second: thomas_s_Rocker _Chicken_sprite_sheet_jump_polish_5
+  - first:
+      213: -8737483830386661643
+    second: thomas_s_Rocker _Chicken_sprite_sheet_jump_polish_6
+  - first:
+      213: -6040785664340776596
+    second: thomas_s_Rocker _Chicken_sprite_sheet_jump_polish_7
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: thomas_s_Rocker _Chicken_sprite_sheet_jump_polish_0
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 1562
+        width: 1151
+        height: 1106
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab3fdd99928e37740800000000000000
+      internalID: 5148714064387371962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thomas_s_Rocker _Chicken_sprite_sheet_jump_polish_1
+      rect:
+        serializedVersion: 2
+        x: 1577
+        y: 1697
+        width: 1151
+        height: 1053
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4210c2812118e760800000000000000
+      internalID: 7487253216128668235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thomas_s_Rocker _Chicken_sprite_sheet_jump_polish_2
+      rect:
+        serializedVersion: 2
+        x: 3050
+        y: 1768
+        width: 1353
+        height: 1169
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32b10f5e734b8cf80800000000000000
+      internalID: -8086014978769806557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thomas_s_Rocker _Chicken_sprite_sheet_jump_polish_3
+      rect:
+        serializedVersion: 2
+        x: 4679
+        y: 1883
+        width: 1331
+        height: 1054
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7661500e7005fe380800000000000000
+      internalID: -8939838740553722265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thomas_s_Rocker _Chicken_sprite_sheet_jump_polish_4
+      rect:
+        serializedVersion: 2
+        x: 6241
+        y: 1659
+        width: 1305
+        height: 893
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52137e10573d354f0800000000000000
+      internalID: -841096205891587803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thomas_s_Rocker _Chicken_sprite_sheet_jump_polish_5
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 269
+        width: 1405
+        height: 1076
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed5c735549689b520800000000000000
+      internalID: 2718351821737805278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thomas_s_Rocker _Chicken_sprite_sheet_jump_polish_6
+      rect:
+        serializedVersion: 2
+        x: 1846
+        y: 277
+        width: 1432
+        height: 1031
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f6651bdfb83eb680800000000000000
+      internalID: -8737483830386661643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thomas_s_Rocker _Chicken_sprite_sheet_jump_polish_7
+      rect:
+        serializedVersion: 2
+        x: 3797
+        y: 265
+        width: 1129
+        height: 1032
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6922b89171da2ca0800000000000000
+      internalID: -6040785664340776596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 7e6752f3cbac13e47b162f12e32b50db
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
