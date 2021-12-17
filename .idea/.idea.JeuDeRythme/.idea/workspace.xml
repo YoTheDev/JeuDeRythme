@@ -25,6 +25,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Adryan Hauton/Scripts/PlayerProperties2.cs" />
+        <option value="$PROJECT_DIR$/Assets/Adryan Hauton/Scripts/EndLvl.cs" />
+        <option value="$PROJECT_DIR$/Assets/Adryan Hauton/Scripts/UIManagerIG.cs" />
       </list>
     </option>
   </component>
@@ -49,9 +51,8 @@
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
-      <option name="projectPathOnTarget" />
       <option name="selectedOptions">
-        <list />
+        <set />
       </option>
       <method v="2" />
     </configuration>
@@ -59,9 +60,8 @@
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
-      <option name="projectPathOnTarget" />
       <option name="selectedOptions">
-        <list />
+        <set />
       </option>
       <method v="2" />
     </configuration>
@@ -89,6 +89,7 @@
       <workItem from="1638961510853" duration="10848000" />
       <workItem from="1639043156248" duration="7863000" />
       <workItem from="1639664230248" duration="1662000" />
+      <workItem from="1639699916855" duration="1626000" />
     </task>
     <servers />
   </component>

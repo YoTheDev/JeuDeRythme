@@ -17,7 +17,7 @@ public class EndLvl : MonoBehaviour
     void Start()
     {
         EndUI.SetActive(false);
-        player.GetComponent<MeshRenderer>();
+        player.GetComponent<SpriteRenderer>();
         player.GetComponent<PlayerProperties2>();
     }
 
@@ -34,7 +34,7 @@ public class EndLvl : MonoBehaviour
         Scroller._scrollingSpeed = 0;
         CamAnimator.SetBool("End", true);
         EndUI.SetActive(true);
-        Destroy(player.GetComponent<MeshRenderer>());
+        Destroy(player.GetComponent<SpriteRenderer>());
         Destroy(player.GetComponent<PlayerProperties2>());
         Audio_manager.MusicLVL.Pause();
         myEventSystem.GetComponent<UnityEngine.EventSystems.EventSystem>().SetSelectedGameObject(FirstSelectEndUI);
